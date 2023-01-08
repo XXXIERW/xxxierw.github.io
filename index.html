@@ -191,17 +191,17 @@
 							<li>
 								<label>随机个数</label>
 								<input type="checkbox" id="isRandom" value="1">
-								<span>6~20个之间随机</span>
+								<span>4~12个之间随机</span>
 							</li>
 							<li>
 								<label>固定个数</label>
-								<input type="range" id="set_number"  class="input_range" max="20" min="6" value="12">
+								<input type="range" id="set_number"  class="input_range" max="12" min="4" value="12">
 								<span id="set_number_show" class="input_show">12</span>
 							</li>
 							<li>
 								<label>时长(分钟)</label>
-								<input type="range" id="set_time" class="input_range" max="20" min="1" value="5">
-								<span id="set_time_show" class="input_show">5</span>
+								<input type="range" id="set_time" class="input_range" max="20" min="1" value="10">
+								<span id="set_time_show" class="input_show">10</span>
 							</li>
 						</ul>
 					</div>
@@ -264,7 +264,7 @@
 		var lang = {
 			please_input1 : "★亲，现在请敲击键盘，输入组1的数字",
 			please_input2 : "★亲，现在请敲击键盘，输入组2的数字",
-			please_space  : "★亲，输入完成，按空格键继续"
+			please_space  : "★亲，输入完成，按回车键继续"
 		};
 
 		document.addEventListener("keydown", function(e) {
